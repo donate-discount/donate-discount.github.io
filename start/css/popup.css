@@ -1,0 +1,90 @@
+.overlay {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.35s ease-in-out;
+  max-height: 100vh;
+  overflow-y: auto;
+  z-index: 98;
+}
+.overlay.open {
+  opacity: 1;
+  pointer-events: inherit;
+}
+.overlay .modal {
+  background: white;
+  text-align: center;
+  width: 550px;
+  height: 300px;
+  box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.35s ease-in-out;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+.overlay .modal.open {
+  opacity: 1;
+  pointer-events: inherit;
+}
+.overlay .modal.open .content {
+  transform: translate(0, 0px);
+  opacity: 1;
+}
+.overlay .modal .content {
+  transform: translate(0, -10px);
+  opacity: 0;
+  transition: 0.35s ease-in-out;
+}
+.overlay .modal .title {
+  margin-top: 0;
+}
+
+.title {
+  color: #fff;
+}
+
+.modal-content {
+  box-sizing: border-box;
+  padding: 0 50px;
+}
+
+.modal-content h1 {
+  font-size: 36px;
+  color: #f01d1d;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.modal-content p {
+  padding: 15px 0;
+}
+
+.btn-modal {
+  display: block;
+  width: 230px;
+  padding: 16px 0;
+  background: #f01d1d;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  transition: .1s linear;
+  margin-top: 10px;
+}
+
+.btn-modal:hover {
+  background: #ff0000;
+}

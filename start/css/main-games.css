@@ -1,0 +1,107 @@
+.pre-games {
+  padding-top: 20vh;
+  background: url('../img/game2-bg.jpg') no-repeat center top / cover;
+  padding-bottom: 65px;
+}
+.st0 {
+  padding-top: 10px !important;
+  padding-bottom: 30px !important;
+}
+.st3-desk span {
+  color: #f01d1d;
+}
+.games {
+  background: #1e1e1e;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.games-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.games-list__item {
+  width: 263px;
+  max-height: 166.5px;
+  -webkit-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  transition: 0.1s linear;
+  margin: 0 auto;
+  margin-top: 65px;
+  cursor: pointer;
+}
+.games-list__item img {
+  display: block;
+  margin: 0 auto;
+  width: 127px;
+  height: 127px;
+}
+.games-list__item:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.games-list__item:hover .add {
+  background: #f01d1d;
+}
+.games-list__item:hover .add span {
+  color: #fff;
+}
+.games-list__wrapper {
+  position: relative;
+  max-height: 166.5px;
+  margin: 0 auto;
+}
+.game-name {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -30%);
+      -ms-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+}
+.add {
+  max-width: 40px;
+  max-height: 40px;
+  height: 40px;
+  background: #fff;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  -webkit-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  transition: 0.1s linear;
+}
+.add span {
+  color: #f01d1d;
+  font-size: 32px;
+  font-weight: 900;
+  -webkit-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  transition: 0.1s linear;
+}
+.add:hover {
+  background: #f01d1d;
+}
+.add:hover span {
+  color: #fff;
+}

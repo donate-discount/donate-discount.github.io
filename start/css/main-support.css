@@ -1,0 +1,49 @@
+.support {
+  background: #1e1e1e;
+  padding-bottom: 65px;
+}
+.support__offer {
+  padding-top: 15vh;
+}
+.form2 {
+  margin-top: 130px;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.support-title {
+  color: green !important;
+}
+.support-link {
+  margin: 0 auto;
+  margin-top: 65px;
+}
+.support-link h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+}
+.support-link h2 span {
+  color: #f01d1d;
+}
+@media screen and (max-width: 992px) {
+  .support-link h2 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .support-link h2 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .support-link h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .support-link h2 {
+    font-size: 20px;
+  }
+}

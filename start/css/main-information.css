@@ -1,0 +1,60 @@
+.information {
+  background: #1e1e1e;
+  padding-bottom: 65px;
+}
+.information__offer {
+  padding-top: 15vh;
+}
+.section-desk3 {
+  position: relative;
+}
+.section-desk3::before {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 4px;
+  background: #fff;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -65px;
+}
+.information-list {
+  margin-top: 150px;
+}
+.information-list__item p {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  border-top: 2px solid #f01d1d;
+  border-bottom: 2px solid #f01d1d;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.faq-text {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 52px;
+  margin-top: 30px;
+}
+.faq-list {
+  margin-top: 65px;
+}
+.faq-list__item {
+  margin-top: 40px;
+}
+.faq-list__item h4 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #ff9900;
+  font-size: 24px;
+}
+.faq-list__item p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+}
